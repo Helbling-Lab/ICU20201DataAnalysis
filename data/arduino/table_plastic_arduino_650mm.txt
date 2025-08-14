@@ -1,0 +1,135 @@
+ICUx0201 General purpose detection
+---------------------
+src/invn/soniclib/ch_driver.c chdrv_group_detect_and_program start
+src/invn/soniclib/ch_driver shasta_detect_and_program start
+src/invn/soniclib/ch_driver shasta_detect_and_program device 0 found on bus
+src/invn/soniclib/ch_driver shasta_detect_and_program reset_and_halt() complete; code 0
+src/invn/soniclib/ch_driver shasta_detect_and_program init_ram() complete; code 0
+src/invn/soniclib/ch_driver shasta_detect_and_program write_firmware() complete; code 0
+src/invn/soniclib/ch_driver.c chdrv_group_detect_and_program chdrv_detect_and_program() complete; code 0
+src/invn/soniclib/ch_driver.c chdrv_group_detect_and_program increment grp_ptr->sensor_count
+src/invn/soniclib/ch_driver.c chdrv_group_detect_and_program end; code 0
+src/invn/soniclib/ch_driver.c shasta_group_start chdrv_group_detect_and_program() success; code 0
+src/invn/soniclib/ch_driver.c shasta_group_start grp_ptr->sensor_count == 0; code 0
+src/invn/soniclib/ch_driver.c shasta_group_start clock_init() device 1
+src/invn/soniclib/ch_driver.c shasta_group_start clock_init() successes; code 0
+src/invn/soniclib/ch_driver.c shasta_group_start calibrate_rtc() success; code 0
+src/invn/soniclib/ch_driver.c shasta_group_start chdrv_group_measure_pmut() success; code 0
+src/invn/soniclib/ch_driver.c shasta_group_start done; code 0
+---------------------
+Sensor 0 informations
+Type: 20201
+ID: 1420147
+Operating Frequency (Hz): 77178
+Bandwidth (Hz): 3742
+RTC Cal (lsb @ ms): 2808@100
+CPU Freq (MHz): 38.93
+max range (mm): 6044
+Firmware: gpt_1.8.0
+Sensor 0 configuration
+measure range (mm): 6026
+Range(mm):4979.81
+Range(mm):641.84
+Range(mm):641.69
+Range(mm):641.97
+Range(mm):642.66
+Range(mm):642.53
+Range(mm):642.81
+Range(mm):643.09
+Range(mm):643.09
+Range(mm):642.66
+Range(mm):642.25
+Range(mm):641.84
+Range(mm):641.69
+Range(mm):641.56
+Range(mm):641.28
+Range(mm):640.84
+Range(mm):641.56
+Range(mm):641.28
+Range(mm):641.56
+Range(mm):641.69
+Range(mm):641.69
+Range(mm):641.84
+Range(mm):641.69
+Range(mm):641.84
+Range(mm):641.97
+Range(mm):641.97
+Range(mm):642.09
+Range(mm):641.97
+Range(mm):642.81
+Range(mm):642.09
+Range(mm):642.94
+Range(mm):643.09
+Range(mm):643.09
+Range(mm):642.66
+Range(mm):642.25
+Range(mm):642.25
+Range(mm):643.09
+Range(mm):643.91
+Range(mm):643.22
+Range(mm):642.66
+Range(mm):642.37
+Range(mm):640.59
+Range(mm):640.03
+Range(mm):640.16
+Range(mm):641.12
+Range(mm):641.12
+Range(mm):642.37
+Range(mm):643.09
+Range(mm):643.62
+Range(mm):643.62
+Range(mm):643.37
+Range(mm):643.09
+Range(mm):642.25
+Range(mm):641.56
+Range(mm):641.56
+Range(mm):641.84
+Range(mm):641.97
+Range(mm):641.97
+Range(mm):641.41
+Range(mm):640.16
+Range(mm):639.47
+Range(mm):638.62
+Range(mm):638.62
+Range(mm):640.72
+Range(mm):641.00
+Range(mm):640.72
+Range(mm):641.41
+Range(mm):641.28
+Range(mm):640.72
+Range(mm):640.44
+Range(mm):640.72
+Range(mm):640.31
+Range(mm):639.59
+Range(mm):640.44
+Range(mm):641.56
+Range(mm):641.69
+Range(mm):641.84
+Range(mm):641.69
+Range(mm):641.12
+Range(mm):640.44
+Range(mm):640.72
+Range(mm):641.12
+Range(mm):641.69
+Range(mm):641.84
+Range(mm):641.69
+Range(mm):642.09
+Range(mm):641.41
+Range(mm):641.41
+Range(mm):641.97
+Range(mm):642.66
+Range(mm):642.37
+Range(mm):642.66
+Range(mm):642.09
+Range(mm):641.28
+Range(mm):640.84
+Range(mm):640.72
+Range(mm):640.31
+Range(mm):639.47
+Range(mm):640.84
+Range(mm):641.00
+Range(mm):641.69
+Range(mm):641.84
+Range(mm):642.09
+Range(mm):643.37
+Range(mm):643.22

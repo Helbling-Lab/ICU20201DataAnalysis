@@ -1,0 +1,80 @@
+ICUx0201 General purpose detection
+---------------------
+src/invn/soniclib/ch_driver.c chdrv_group_detect_and_program start
+src/invn/soniclib/ch_driver shasta_detect_and_program start
+src/invn/soniclib/ch_driver shasta_detect_and_program device 0 found on bus
+src/invn/soniclib/ch_driver shasta_detect_and_program reset_and_halt() complete; code 0
+src/invn/soniclib/ch_driver shasta_detect_and_program init_ram() complete; code 0
+src/invn/soniclib/ch_driver shasta_detect_and_program write_firmware() complete; code 0
+src/invn/soniclib/ch_driver.c chdrv_group_detect_and_program chdrv_detect_and_program() complete; code 0
+src/invn/soniclib/ch_driver.c chdrv_group_detect_and_program increment grp_ptr->sensor_count
+src/invn/soniclib/ch_driver.c chdrv_group_detect_and_program end; code 0
+src/invn/soniclib/ch_driver.c shasta_group_start chdrv_group_detect_and_program() success; code 0
+src/invn/soniclib/ch_driver.c shasta_group_start grp_ptr->sensor_count == 0; code 0
+src/invn/soniclib/ch_driver.c shasta_group_start clock_init() device 1
+src/invn/soniclib/ch_driver.c shasta_group_start clock_init() successes; code 0
+src/invn/soniclib/ch_driver.c shasta_group_start calibrate_rtc() success; code 0
+src/invn/soniclib/ch_driver.c shasta_group_start chdrv_group_measure_pmut() success; code 0
+src/invn/soniclib/ch_driver.c shasta_group_start done; code 0
+---------------------
+Sensor 0 informations
+Type: 20201
+ID: 1420147
+Operating Frequency (Hz): 77192
+Bandwidth (Hz): 3407
+RTC Cal (lsb @ ms): 2808@100
+CPU Freq (MHz): 38.92
+max range (mm): 6043
+Firmware: gpt_1.8.0
+Sensor 0 configuration
+measure range (mm): 6025
+Range(mm):5014.59
+Range(mm):786.22
+Range(mm):785.66
+Range(mm):786.91
+Range(mm):787.34
+Range(mm):787.59
+Range(mm):789.12
+Range(mm):789.84
+Range(mm):789.56
+Range(mm):788.84
+Range(mm):788.59
+Range(mm):788.31
+Range(mm):788.16
+Range(mm):788.31
+Range(mm):788.16
+Range(mm):787.47
+Range(mm):786.34
+Range(mm):784.84
+Range(mm):785.94
+Range(mm):787.34
+Range(mm):787.06
+Range(mm):787.06
+Range(mm):787.06
+Range(mm):787.06
+Range(mm):786.78
+Range(mm):787.06
+Range(mm):786.50
+Range(mm):786.34
+Range(mm):787.19
+Range(mm):786.78
+Range(mm):786.09
+Range(mm):785.94
+Range(mm):786.22
+Range(mm):786.91
+Range(mm):787.19
+Range(mm):787.34
+Range(mm):787.06
+Range(mm):786.50
+Range(mm):785.37
+Range(mm):784.28
+Range(mm):783.03
+Range(mm):784.12
+Range(mm):785.25
+Range(mm):786.50
+Range(mm):787.06
+Range(mm):787.19
+Range(mm):786.78
+Range(mm):786.62
+Range(mm):786.78
+Range(mm):788.03

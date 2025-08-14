@@ -1,0 +1,80 @@
+ICUx0201 General purpose detection
+---------------------
+src/invn/soniclib/ch_driver.c chdrv_group_detect_and_program start
+src/invn/soniclib/ch_driver shasta_detect_and_program start
+src/invn/soniclib/ch_driver shasta_detect_and_program device 0 found on bus
+src/invn/soniclib/ch_driver shasta_detect_and_program reset_and_halt() complete; code 0
+src/invn/soniclib/ch_driver shasta_detect_and_program init_ram() complete; code 0
+src/invn/soniclib/ch_driver shasta_detect_and_program write_firmware() complete; code 0
+src/invn/soniclib/ch_driver.c chdrv_group_detect_and_program chdrv_detect_and_program() complete; code 0
+src/invn/soniclib/ch_driver.c chdrv_group_detect_and_program increment grp_ptr->sensor_count
+src/invn/soniclib/ch_driver.c chdrv_group_detect_and_program end; code 0
+src/invn/soniclib/ch_driver.c shasta_group_start chdrv_group_detect_and_program() success; code 0
+src/invn/soniclib/ch_driver.c shasta_group_start grp_ptr->sensor_count == 0; code 0
+src/invn/soniclib/ch_driver.c shasta_group_start clock_init() device 1
+src/invn/soniclib/ch_driver.c shasta_group_start clock_init() successes; code 0
+src/invn/soniclib/ch_driver.c shasta_group_start calibrate_rtc() success; code 0
+src/invn/soniclib/ch_driver.c shasta_group_start chdrv_group_measure_pmut() success; code 0
+src/invn/soniclib/ch_driver.c shasta_group_start done; code 0
+---------------------
+Sensor 0 informations
+Type: 20201
+ID: 1420147
+Operating Frequency (Hz): 77192
+Bandwidth (Hz): 3455
+RTC Cal (lsb @ ms): 2808@100
+CPU Freq (MHz): 38.95
+max range (mm): 6043
+Firmware: gpt_1.8.0
+Sensor 0 configuration
+measure range (mm): 6025
+Range(mm):5051.50
+Range(mm):935.09
+Range(mm):936.87
+Range(mm):938.69
+Range(mm):939.94
+Range(mm):941.47
+Range(mm):942.59
+Range(mm):942.16
+Range(mm):941.47
+Range(mm):940.09
+Range(mm):938.41
+Range(mm):938.28
+Range(mm):937.31
+Range(mm):937.72
+Range(mm):937.59
+Range(mm):937.44
+Range(mm):937.16
+Range(mm):934.81
+Range(mm):933.97
+Range(mm):933.28
+Range(mm):934.94
+Range(mm):936.47
+Range(mm):938.28
+Range(mm):938.69
+Range(mm):937.31
+Range(mm):935.91
+Range(mm):936.06
+Range(mm):935.34
+Range(mm):934.81
+Range(mm):933.41
+Range(mm):933.00
+Range(mm):933.12
+Range(mm):932.59
+Range(mm):931.19
+Range(mm):929.94
+Range(mm):928.56
+Range(mm):928.69
+Range(mm):930.50
+Range(mm):931.34
+Range(mm):932.59
+Range(mm):934.09
+Range(mm):934.53
+Range(mm):932.31
+Range(mm):933.56
+Range(mm):933.97
+Range(mm):935.62
+Range(mm):937.16
+Range(mm):937.31
+Range(mm):937.59
+Range(mm):937.59

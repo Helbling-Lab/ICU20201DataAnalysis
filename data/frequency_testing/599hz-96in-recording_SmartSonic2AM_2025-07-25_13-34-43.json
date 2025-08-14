@@ -1,0 +1,421 @@
+{
+    "chsensor": {
+        "max_samples": 360,
+        "name": "ICU-20201"
+    },
+    "nb_sensors": 1,
+    "odr_ms": 167,
+    "sensors": {
+        "0": {
+            "bandwidth": "3418.78",
+            "bandwidth_from_asic": "3598.43",
+            "decimation_factor": 1,
+            "first_samples_skipped": 0,
+            "low_gain_rxlen": 0,
+            "max_nb_samples": 360,
+            "meas_queues": {
+                "current_meas": 0,
+                "intconfig": 0,
+                "meas": [
+                    {
+                        "meas_period": 0,
+                        "odr": 4,
+                        "reserved": 0,
+                        "trx_inst": [
+                            {
+                                "cmd_config": 33569,
+                                "length": 512
+                            },
+                            {
+                                "cmd_config": 801,
+                                "length": 21
+                            },
+                            {
+                                "cmd_config": 289,
+                                "length": 21
+                            },
+                            {
+                                "cmd_config": 4385,
+                                "length": 21
+                            },
+                            {
+                                "cmd_config": 4385,
+                                "length": 21
+                            },
+                            {
+                                "cmd_config": 8481,
+                                "length": 21
+                            },
+                            {
+                                "cmd_config": 14370,
+                                "length": 128
+                            },
+                            {
+                                "cmd_config": 42,
+                                "length": 37376
+                            },
+                            {
+                                "cmd_config": 3,
+                                "length": 0
+                            },
+                            {
+                                "cmd_config": 0,
+                                "length": 0
+                            },
+                            {
+                                "cmd_config": 0,
+                                "length": 0
+                            },
+                            {
+                                "cmd_config": 0,
+                                "length": 0
+                            },
+                            {
+                                "cmd_config": 0,
+                                "length": 0
+                            },
+                            {
+                                "cmd_config": 0,
+                                "length": 0
+                            },
+                            {
+                                "cmd_config": 0,
+                                "length": 0
+                            },
+                            {
+                                "cmd_config": 0,
+                                "length": 0
+                            },
+                            {
+                                "cmd_config": 0,
+                                "length": 0
+                            },
+                            {
+                                "cmd_config": 0,
+                                "length": 0
+                            },
+                            {
+                                "cmd_config": 0,
+                                "length": 0
+                            },
+                            {
+                                "cmd_config": 0,
+                                "length": 0
+                            },
+                            {
+                                "cmd_config": 0,
+                                "length": 0
+                            },
+                            {
+                                "cmd_config": 0,
+                                "length": 0
+                            },
+                            {
+                                "cmd_config": 0,
+                                "length": 0
+                            },
+                            {
+                                "cmd_config": 0,
+                                "length": 0
+                            },
+                            {
+                                "cmd_config": 0,
+                                "length": 0
+                            },
+                            {
+                                "cmd_config": 0,
+                                "length": 0
+                            },
+                            {
+                                "cmd_config": 0,
+                                "length": 0
+                            },
+                            {
+                                "cmd_config": 0,
+                                "length": 0
+                            },
+                            {
+                                "cmd_config": 0,
+                                "length": 0
+                            },
+                            {
+                                "cmd_config": 0,
+                                "length": 0
+                            },
+                            {
+                                "cmd_config": 0,
+                                "length": 0
+                            },
+                            {
+                                "cmd_config": 0,
+                                "length": 0
+                            }
+                        ]
+                    },
+                    {
+                        "meas_period": 0,
+                        "odr": 4,
+                        "reserved": 0,
+                        "trx_inst": [
+                            {
+                                "cmd_config": 33569,
+                                "length": 512
+                            },
+                            {
+                                "cmd_config": 14370,
+                                "length": 128
+                            },
+                            {
+                                "cmd_config": 42,
+                                "length": 37376
+                            },
+                            {
+                                "cmd_config": 3,
+                                "length": 0
+                            },
+                            {
+                                "cmd_config": 0,
+                                "length": 0
+                            },
+                            {
+                                "cmd_config": 0,
+                                "length": 0
+                            },
+                            {
+                                "cmd_config": 0,
+                                "length": 0
+                            },
+                            {
+                                "cmd_config": 0,
+                                "length": 0
+                            },
+                            {
+                                "cmd_config": 0,
+                                "length": 0
+                            },
+                            {
+                                "cmd_config": 0,
+                                "length": 0
+                            },
+                            {
+                                "cmd_config": 0,
+                                "length": 0
+                            },
+                            {
+                                "cmd_config": 0,
+                                "length": 0
+                            },
+                            {
+                                "cmd_config": 0,
+                                "length": 0
+                            },
+                            {
+                                "cmd_config": 0,
+                                "length": 0
+                            },
+                            {
+                                "cmd_config": 0,
+                                "length": 0
+                            },
+                            {
+                                "cmd_config": 0,
+                                "length": 0
+                            },
+                            {
+                                "cmd_config": 0,
+                                "length": 0
+                            },
+                            {
+                                "cmd_config": 0,
+                                "length": 0
+                            },
+                            {
+                                "cmd_config": 0,
+                                "length": 0
+                            },
+                            {
+                                "cmd_config": 0,
+                                "length": 0
+                            },
+                            {
+                                "cmd_config": 0,
+                                "length": 0
+                            },
+                            {
+                                "cmd_config": 0,
+                                "length": 0
+                            },
+                            {
+                                "cmd_config": 0,
+                                "length": 0
+                            },
+                            {
+                                "cmd_config": 0,
+                                "length": 0
+                            },
+                            {
+                                "cmd_config": 0,
+                                "length": 0
+                            },
+                            {
+                                "cmd_config": 0,
+                                "length": 0
+                            },
+                            {
+                                "cmd_config": 0,
+                                "length": 0
+                            },
+                            {
+                                "cmd_config": 0,
+                                "length": 0
+                            },
+                            {
+                                "cmd_config": 0,
+                                "length": 0
+                            },
+                            {
+                                "cmd_config": 0,
+                                "length": 0
+                            },
+                            {
+                                "cmd_config": 0,
+                                "length": 0
+                            },
+                            {
+                                "cmd_config": 0,
+                                "length": 0
+                            }
+                        ]
+                    }
+                ],
+                "meas_cfg": [
+                    {
+                        "filter_update_modulo": 0,
+                        "iq_output_format": 0,
+                        "num_ranges": 1,
+                        "reserved": 0,
+                        "ringdown_cancel_samples": 20,
+                        "static_target_samples": 0,
+                        "thresholds": {
+                            "stop_index": [
+                                40,
+                                70,
+                                100,
+                                160,
+                                200,
+                                240,
+                                0,
+                                0
+                            ],
+                            "threshold": [
+                                1600,
+                                800,
+                                400,
+                                200,
+                                140,
+                                95,
+                                50,
+                                0
+                            ]
+                        }
+                    },
+                    {
+                        "filter_update_modulo": 0,
+                        "iq_output_format": 0,
+                        "num_ranges": 1,
+                        "reserved": 0,
+                        "ringdown_cancel_samples": 20,
+                        "static_target_samples": 0,
+                        "thresholds": {
+                            "stop_index": [
+                                40,
+                                70,
+                                100,
+                                160,
+                                200,
+                                240,
+                                0,
+                                0
+                            ],
+                            "threshold": [
+                                1600,
+                                800,
+                                400,
+                                200,
+                                140,
+                                95,
+                                50,
+                                0
+                            ]
+                        }
+                    }
+                ],
+                "meas_start": 0,
+                "meas_stop": 0,
+                "reserved": 0,
+                "trigsrc": 1
+            },
+            "mt_thresholds": {
+                "0": {
+                    "level": 1600,
+                    "start_sample": 0
+                },
+                "1": {
+                    "level": 800,
+                    "start_sample": 40
+                },
+                "2": {
+                    "level": 400,
+                    "start_sample": 70
+                },
+                "3": {
+                    "level": 200,
+                    "start_sample": 100
+                },
+                "4": {
+                    "level": 140,
+                    "start_sample": 160
+                },
+                "5": {
+                    "level": 95,
+                    "start_sample": 200
+                },
+                "6": {
+                    "level": 50,
+                    "start_sample": 240
+                },
+                "7": {
+                    "level": 0,
+                    "start_sample": 0
+                }
+            },
+            "nb_rejected_samples": 0,
+            "nb_samples": 293,
+            "odr_ms": 167,
+            "odr_us": 167000,
+            "op_freq_hz": 77028,
+            "otp_info_barcode": "122331420147",
+            "otp_info_lot": "142",
+            "otp_info_mems_code": 2,
+            "otp_info_mfg_site": "1",
+            "otp_info_mfg_week": 33,
+            "otp_info_mfg_year": 22,
+            "otp_info_module_code": 255,
+            "otp_info_package_code": 255,
+            "otp_info_product_code": 1,
+            "otp_info_uid": "0147",
+            "oversample": 0,
+            "pulse_length": 617,
+            "pulse_length_offset_cm": 0,
+            "pulse_length_us": 8010.07,
+            "range_mm": 5218.829516539439,
+            "rx_holdoff_samples": 0,
+            "use_magnitude": 0
+        }
+    },
+    "versions": {
+        "asicfw": "shasta-gpt-1.7.1",
+        "mcufw": "1.0.2+bDebug",
+        "no mcu algo": "N/A"
+    }
+}
